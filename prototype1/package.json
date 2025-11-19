@@ -1,0 +1,15 @@
+{
+  "name": "final-year-project-prototype",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "install:frontend": "npm install --prefix frontend",
+    "start:frontend": "npm start --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "test:frontend": "npm test --prefix frontend"
+  }
+}
+
+
